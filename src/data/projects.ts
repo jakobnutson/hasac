@@ -1,9 +1,9 @@
 import PhoenixIcon from '../assets/logos/Phoenix-logo.svg?raw';
 import N8nIcon from '../assets/logos/N8n-logo.svg?raw';
 import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
-import PosthogIcon from '../assets/logos/posthog-logo.svg?raw';
+import Aqara from '../assets/logos/aqara.svg?raw';
 import PythonIcon from '../assets/logos/Python-logo.svg?raw';
-import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
+import Mihome from '../assets/logos/mihome.svg?raw';
 
 
 export const projects = [
@@ -37,7 +37,7 @@ export const projects = [
 		description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
 		ctaText: "Read Case Study →",
 		ctaLink: "#",
-		icon: PosthogIcon
+		icon: Aqara
 	},
 	{
 		title: "Data Ingestion & ETL",
@@ -53,6 +53,6 @@ export const projects = [
 		description: "Accessible UI kit with tokens, theming, and testing. Published as a versioned package with changelogs and docs.",
 		ctaText: "Docs →",
 		ctaLink: "#",
-		icon: TailwindIcon
+		icon: Mihome
 	},
 ];
