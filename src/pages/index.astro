@@ -1,26 +1,26 @@
 ---
-import BaseHead from '../hasac/components/BaseHead.astro';
-import Footer from '../hasac/components/sections/Footer.astro';
-import Header from '../hasac/components/sections/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../hasac/consts';
-import HeroSection from '../hasac/components/sections/HeroSection.astro';
-import SkillsSection from '../hasac/components/sections/SkillsSection.astro';
-import { skills } from '../hasac/data/skills';
-import WorkExperience from '../hasac/components/sections/WorkExperience.astro';
-import { work } from '../hasac/data/work';
-import Studies from '../hasac/components/sections/Studies.astro';
-import { studies } from '../hasac/data/studies';
-import Carousel from '../hasac/components/ui/carousel/Carousel.astro';
-import { logos } from '../hasac/data/logos';
-import ArrowSeparator from '../hasac/components/ui/separator/ArrowSeparator.astro'
-import GlowLineSeparator from '../hasac/components/ui/separator/GlowLineSeparator.astro'
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/sections/Footer.astro';
+import Header from '../components/sections/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import HeroSection from '../components/sections/HeroSection.astro';
+import SkillsSection from '../components/sections/SkillsSection.astro';
+import { skills } from '../data/skills';
+import WorkExperience from '../components/sections/WorkExperience.astro';
+import { work } from '../data/work';
+import Studies from '../components/sections/Studies.astro';
+import { studies } from '../data/studies';
+import Carousel from '../components/ui/carousel/Carousel.astro';
+import { logos } from '../data/logos';
+import ArrowSeparator from '../components/ui/separator/ArrowSeparator.astro'
+import GlowLineSeparator from '../components/ui/separator/GlowLineSeparator.astro'
 
 // Logos
-import astroLogo from '../hasac/assets/logos/Astro-logo.svg';
-import googleAdsLogo from '../hasac/assets/logos/GoogleAds-logo.svg';
-import posthogLogo from '../hasac/assets/logos/posthog-logo.svg';
-import notionLogo from '../hasac/assets/logos/Notion-logo.svg';
-import figmaLogo from '../hasac/assets/logos/Figma-logo.svg';
+import astroLogo from '../assets/logos/Astro-logo.svg';
+import googleAdsLogo from '../assets/logos/GoogleAds-logo.svg';
+import posthogLogo from '../assets/logos/posthog-logo.svg';
+import notionLogo from '../assets/logos/Notion-logo.svg';
+import figmaLogo from '../assets/logos/Figma-logo.svg';
 
 // skills are imported from src/data/skills
 ---
@@ -34,11 +34,11 @@ import figmaLogo from '../hasac/assets/logos/Figma-logo.svg';
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'Site Author',
-      url: new URL('/', Astro.site).toString(),
+      url: new URL('/hasac', Astro.site).toString(),
       logo: new URL('/hasac/favicon.svg', Astro.site).toString(),
       sameAs: [
-        'https://x.com/guihubie',
-        'https://www.linkedin.com/in/guilherme-hubie/',
+        '',
+        '',
       ],
     })} />
 	</head>
