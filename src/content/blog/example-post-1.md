@@ -1,16 +1,16 @@
 ---
-title: 'Example Post One'
-description: 'Sample article demonstrating the blog layout, cards, and meta.'
-pubDate: 'Aug 12 2025'
-heroImage: '../../assets/images/example-blog-hero1.jpg'
-category: 'Showcase'
-tags: ['template', 'demo']
+title: "Ağıllı Ev Nədir? Yeni Başlayanlar üçün Bələdçi"
+description: "Ağıllı ev texnologiyaları haqqında əsas məlumatlar və üstünlüklər."
+pubDate: 2026-01-08
+image: "/images/smart-home-intro.jpg"
+category: "Bələdçi"
 ---
 
-This is a sample article used in the starter template. Replace it with your own content.
+Ağıllı ev (Smart Home), məişət cihazlarının internet vasitəsilə bir-birinə bağlandığı və uzaqdan idarə oluna bildiyi bir sistemdir. 
 
-- Edit the title, description, and frontmatter
-- Drop your images into `src/assets/images/`
-- Update tags and categories as needed
+### Əsas Üstünlüklər:
+* **Rahatlıq:** İşıqları və ya kondisioneri yerinizdən qalxmadan idarə edin.
+* **Təhlükəsizlik:** Sensorlar və kameralar vasitəsilə evinizi 24/7 izləyin.
+* **Qənaət:** Ağıllı termostatlar enerji xərclərini 30%-ə qədər azalda bilər.
 
-
+Sistem qurmağa başlamaq üçün ilk olaraq yaxşı bir Wi-Fi marşrutlaşdırıcısı və mərkəzi hab (hub) seçmək kifayətdir.
