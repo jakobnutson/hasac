@@ -33,39 +33,5 @@ const pageDescription = '';
   </p>
 
   <GlowLineSeparator />
----
-const features = [
-  {
-    title: "Sürətli Montaj",
-    desc: "Heç bir kabelə ehtiyac yoxdur. Divarlarınızı qorumuş oluruq.",
-    icon: "⚡"
-  },
-  {
-    title: "Maksimum Məxfilik",
-    desc: "Məlumatlarınız heç bir kənar şəxsə və ya bulud serverinə ötürülmür.",
-    icon: "🛡️"
-  },
-  {
-    title: "Hər Şey Bir Yerdə",
-    desc: "Bütün brendləri (Xiaomi, Aqara, Sonoff) tək tətbiqdən idarə edin.",
-    icon: "📱"
-  },
-  {
-    title: "Gələcəyə Hazır",
-    desc: "Matter və Thread dəstəyi ilə sisteminiz illər boyu aktual qalacaq.",
-    icon: "🚀"
-  }
-];
----
-
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
-  {features.map(f => (
-    <div class="border p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow bg-white">
-      <div class="text-3xl mb-4">{f.icon}</div>
-      <h3 class="font-bold text-lg mb-2">{f.title}</h3>
-      <p class="text-gray-600 text-sm">{f.desc}</p>
-    </div>
-  ))}
-</div>
 
 </Layout>
