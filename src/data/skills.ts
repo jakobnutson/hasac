@@ -22,7 +22,7 @@ export const skills = [
   },
   {
     icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm-1 15l-4-4 1.41-1.41L11 14.17l6.59-6.59L19 9l-8 8z"/></svg>`,
-    title: "Adapterlər:",
+    title: "Simsiz Adapterlər:",
     description: "Keyfiyyətli Zigbee (məsələn: SkyConnect və ya Sonoff ZBDongle-E) və Z-Wave adapterləri.",
   },
   {
