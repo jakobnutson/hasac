@@ -1,8 +1,14 @@
 export const skills = [
   {
     icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>`,
-    title: "System Design & Architecture",
-    description: "Designing scalable, resilient services, clear boundaries, and data models; pragmatic trade‑offs documented via ADRs/RFCs.",
+    title: "Texniki Bacarıqlar",
+    description: "sistemin stabil işləməsini təmin etmək üçün aşağıdakı sahələrdə dərin biliyə sahib olmalıdır: Linux və Terminal Bilikləri: Home Assistant-ın əsas əməliyyat sistemi Linux üzərində qurulub. SSH vasitəsilə sistemə daxil olmaq, əmrləri icra etmək və fayl sistemini idarə etmək (məsələn: docker, logs yoxlanılması) vacibdir. Şəbəkə (Networking) Bilikləri: * Statik IP ünvanlarının təyin edilməsi. VLAN qurulması (Smart cihazları əsas şəbəkədən ayırmaq təhlükəsizlik üçün mütləqdir). Port yönləndirmə (Port Forwarding) və ya VPN (WireGuard/Tailscale) vasitəsilə uzaqdan girişin təşkili.
+
+    Protokol Anlayışı: Zigbee, Z-Wave, Thread və Matter protokollarının necə işlədiyini, hansı tezliklərdə maneələrlə qarşılaşdığını bilmək.
+
+    YAML və Avtomatlaşdırma Məntiqi: HA-nın konfiqurasiya fayllarını (configuration.yaml) redaktə etmək və "Jinjal" şablonlaşdırma dilindən istifadə edərək mürəkkəb avtomatlaşdırmalar qurmaq.
+
+    Təhlükəsizlik Standartları: Müştəri məlumatlarının məxfiliyi üçün 2FA (iki faktorlu təsdiqləmə) və yerli idarəetmə prinsiplərini tətbiq etmək.",
   },
   {
     icon: `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 17l-5-5 5-5v3l-2 2 2 2v3zm8-10l5 5-5 5v-3l2-2-2-2V7z"/></svg>`,
