@@ -1,21 +1,31 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
 import GlowLineSeparator from '@/components/ui/separator/GlowLineSeparator.astro';
-const pageTitle = 'About Me';
-const pageDescription = 'Learn more about my background and approach to software engineering.';
+const pageTitle = 'Haqqımızda';
+const pageDescription = '';
 ---
 
 <Layout title={pageTitle} description={pageDescription} pubDate={new Date()} showHeader={false}>
   <p>
-    Hey! I'm a senior software engineer who loves designing reliable systems and shipping products that feel great to use.
+      Biz, yaşayış sahələrini daha ağıllı, təhlükəsiz və səmərəli etmək məqsədi ilə yola çıxan texnologiya həvəskarlarıyıq.
+      Home Assistant ekosistemi üzrə ixtisaslaşaraq, müştərilərimizə qapalı (cloud) sistemlərdən asılı olmayan, tamamilə yerli və gizli saxlanılan ağıllı ev həlləri təklif edirik.
+      
   </p>
   <p>
-    I work across the stack with TypeScript, Node.js, React/Next.js, and PostgreSQL. I care deeply about readable code,
-    strong tests, and observability. My approach: ship small, iterate quickly, measure outcomes.
+   Bizim fərqimiz — tamamilə kabelsiz (wireless) texnologiyalara üstünlük verməyimizdir. 
+      Divarları zədələmədən, mövcud təmirinizə toxunmadan ən mürəkkəb avtomatlaşdırma ssenarilərini həyata keçiririk. Zigbee, Thread və Matter protokolları vasitəsilə evinizin hər 
+      bir küncünü vahid mərkəzdən idarə olunan intellektual sistemə çeviririk.
   </p>
   <p>
-    Recent highlights include leading a migration from a monolith to well‑scoped services, improving p95 latency,
-    and introducing CI/CD with preview environments and quality gates.
+   Bizim Fəlsəfəmiz
+
+    "Texnologiya mürəkkəb olmamalıdır."
+
+    🏠 Eviniz toxunulmazdır: Biz sizin evinizdə deşmə və ya qazma işləri aparmırıq. Kabelsiz sensorlar ilə təmiz iş təhvil veririk.
+
+    🔒 Sizin məlumat, sizin mülkünüzdür: Home Assistant-ın gücü ilə bütün avtomatlaşdırmalar yerli (local) işləyir. İnternet kəsilsə belə, eviniz "ağıllı" qalmağa davam edir.
+
+    🛠️ Peşəkar Dəstək: Yalnız quraşdırmırıq, həm də sistemin stabil işləməsinə 7/24 nəzarət edirik.
   </p>
   <p>
     Outside of feature work, I enjoy mentoring, documentation, and building design‑system components that make teams faster.
@@ -23,5 +33,39 @@ const pageDescription = 'Learn more about my background and approach to software
   </p>
 
   <GlowLineSeparator />
+---
+const features = [
+  {
+    title: "Sürətli Montaj",
+    desc: "Heç bir kabelə ehtiyac yoxdur. Divarlarınızı qorumuş oluruq.",
+    icon: "⚡"
+  },
+  {
+    title: "Maksimum Məxfilik",
+    desc: "Məlumatlarınız heç bir kənar şəxsə və ya bulud serverinə ötürülmür.",
+    icon: "🛡️"
+  },
+  {
+    title: "Hər Şey Bir Yerdə",
+    desc: "Bütün brendləri (Xiaomi, Aqara, Sonoff) tək tətbiqdən idarə edin.",
+    icon: "📱"
+  },
+  {
+    title: "Gələcəyə Hazır",
+    desc: "Matter və Thread dəstəyi ilə sisteminiz illər boyu aktual qalacaq.",
+    icon: "🚀"
+  }
+];
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+  {features.map(f => (
+    <div class="border p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow bg-white">
+      <div class="text-3xl mb-4">{f.icon}</div>
+      <h3 class="font-bold text-lg mb-2">{f.title}</h3>
+      <p class="text-gray-600 text-sm">{f.desc}</p>
+    </div>
+  ))}
+</div>
 
 </Layout>
