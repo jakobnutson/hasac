@@ -11,11 +11,22 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
+    title: "Alexa, Google Home yoxsa Apple HomeKit? Hansını Seçməli?",
+    company: "Home Assist",
+    region: "Azerbaijan",
     description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+          "Ağıllı ev qurarkən veriləcək ilk və ən vacib qərar ekosistem seçimidir. Gəlin ən böyük üç oyunçunu müqayisə edək:#### 1. Amazon Alexa
+"* **Üstünlüyü:** Ən çox cihaz dəstəyi və münasib qiymətli dinamiklər (Echo Dot).
+"* **Mənfi cəhəti:** Məxfilik tənzimləmələri bəzən qarışıq ola bilər.
+
+"#### 2. Google Home (Assistant)
+"* **Üstünlüyü:** Google Xəritə və Təqvim ilə mükəmməl inteqrasiya. Azərbaycan dilində sualları (qismən) anlama qabiliyyəti daha yüksəkdir.
+"* **Mənfi cəhəti:** Tətbiq interfeysi bəzən yavaş ola bilər.
+
+"#### 3. Apple HomeKit (Siri)
+"* **Üstünlüyü:** Maksimum təhlükəsizlik və məxfilik. iPhone istifadəçiləri üçün qüsursuz işləyir.
+"* **Mənfi cəhəti:** Cihazlar daha baha olur və seçim nisbətən azdır.
+      ",
     technologies: [
       "TypeScript",
       "Node.js",
