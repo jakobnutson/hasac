@@ -2,7 +2,7 @@
 title: "Simsiz Təhlükəsizlik: Qapı və Pəncərə Sensorlarının Quraşdırılması"
 description: "Home Assistant ilə evinizi qoruma altına alın. Qazma işləri olmadan peşəkar siqnalizasiya sistemi."
 pubDate: 2026-01-11
-image: "../../assets/images/security-main.jpg"
+heroImage: "../../assets/images/security-main.jpg"
 category: "Təhlükəsizlik"
 ---
 
