@@ -11,33 +11,22 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Alexa, Google Home yoxsa Apple HomeKit? Hansını Seçməli?",
+    title: "Simsiz Azadlıq: Niyə 2026-cı ildə Kabelli Sistemlər Artıq Keçmişdə Qalıb?",
     company: "Home Assist",
     region: "Azerbaijan",
     description:
-          "Ağıllı ev qurarkən veriləcək ilk və ən vacib qərar ekosistem seçimidir. Gəlin ən böyük üç oyunçunu müqayisə edək:#### 1. Amazon Alexa
-"* **Üstünlüyü:** Ən çox cihaz dəstəyi və münasib qiymətli dinamiklər (Echo Dot).
-"* **Mənfi cəhəti:** Məxfilik tənzimləmələri bəzən qarışıq ola bilər.
-
-"#### 2. Google Home (Assistant)
-"* **Üstünlüyü:** Google Xəritə və Təqvim ilə mükəmməl inteqrasiya. Azərbaycan dilində sualları (qismən) anlama qabiliyyəti daha yüksəkdir.
-"* **Mənfi cəhəti:** Tətbiq interfeysi bəzən yavaş ola bilər.
-
-"#### 3. Apple HomeKit (Siri)
-"* **Üstünlüyü:** Maksimum təhlükəsizlik və məxfilik. iPhone istifadəçiləri üçün qüsursuz işləyir.
-"* **Mənfi cəhəti:** Cihazlar daha baha olur və seçim nisbətən azdır.
-      ",
+          " Divarları dağıtmadan peşəkar ağıllı ev qurmaq mümkündürmü? Home Assistant və müasir simsiz protokolların (Zigbee, Thread) kabelli sistemlərə (KNX, Loxone) qarşı üstünlüklərini mühəndislik perspektivindən analiz edirik.",
     technologies: [
       "TypeScript",
-      "Node.js",
-      "React",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
+      "YAML",
+      "HomeAssistant",
+      "SonOff",
+      "Tuya",
+      "RaspberryPi",
       "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
+      "MiHome",
+      
+      
     ],
   },
   {
