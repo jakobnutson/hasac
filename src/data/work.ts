@@ -47,11 +47,11 @@ export const work = [
     ],
   },
   {
-    title: "Senior Frontend Engineer",
+    title: "Qiymət və Zaman Effektivliyi",
     company: "Home Assistant",
     region: "Azerbaijan",
     description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
+      "Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (CAPEX) kəskin artırır. Simsiz həllər isə: Sürətli "Deployment": Bir gündə bütün evi "deploy" etmək mümkündür. Scalability: Bu gün bir otağı ağıllı edib, büdcəyə uyğun olaraq gələn ay digər otaqları əlavə edə bilərsiniz.",
     technologies: [
        "TypeScript",
       "YAML",
