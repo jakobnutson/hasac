@@ -2,7 +2,7 @@
 title: "Kombi və Qazanların Ağıllı İdarəedilməsi: Dry Contact Metodu"
 description: "İstilik sisteminizi Home Assistant-a bağlayaraq qaz xərclərinə qənaət edin."
 pubDate: 2026-01-11
-image: "../../assets/images/thermostat-hero.jpg"
+heroImage: "../../assets/images/thermostat-hero.jpg"
 category: "Enerji Qənaəti"
 ---
 
