@@ -11,7 +11,7 @@ const { post, readingTimeMin = 0 } = Astro.props as Props;
   {post.data.heroImage && (
     <div class="md:col-span-1 relative overflow-hidden rounded-lg">
       <div class="aspect-[16/9] w-full min-h-featured">
-        <Image class="w-full h-full object-cover" width={640} height={360} src={post.data.heroImage} alt={post.data.title} />
+        <Image width={640} height={360} src={post.data.heroImage} alt={post.data.title} />
       </div>
     </div>
   )}
