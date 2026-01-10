@@ -2,7 +2,7 @@
 title: "Kamera və Görüntülü Qapı Zəngi: Məxfilik Ön Planda"
 description: "Evinizin təhlükəsizlik kameralarını Home Assistant-a inteqrasiya edin və 24/7 yerli qeydiyyat aparın."
 pubDate: 2026-01-11
-image: "../../assets/images/camera-doorbell.jpg"
+heroImage: "../../assets/images/camera-doorbell.jpg"
 category: "Video Nəzarət"
 ---
 
