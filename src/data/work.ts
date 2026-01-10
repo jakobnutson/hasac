@@ -51,7 +51,7 @@ export const work = [
     company: "Home Assistant",
     region: "Azerbaijan",
     description:
-      "Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (CAPEX) kəskin artırır. Simsiz həllər isə: Sürətli "Deployment": Bir gündə bütün evi "deploy" etmək mümkündür. Scalability: Bu gün bir otağı ağıllı edib, büdcəyə uyğun olaraq gələn ay digər otaqları əlavə edə bilərsiniz.",
+      "Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini kəskin artırır. Simsiz həllər isə: Tez quraşdırılır: Bir gündə bütün ev şəbəkəsini qurmaq mümkündür. Bu gün bir cihazi ağıllı edib, büdcəyə uyğun olaraq gələn ay digər cihazlar əlavə edə bilərsiniz.",
     technologies: [
        "TypeScript",
       "YAML",
@@ -65,18 +65,19 @@ export const work = [
   },
   {
     title: "Self-Healing Mesh Network (Özünü Bərpa Edən Şəbəkə)",
-    company: "LaunchPad",
-    region: "Brazil",
+    company: "Home Assistant",
+    region: "Azerbaijan",
     description:
       "Wired sistemlərdə kabel qırılarsa, o xətt tamamilə sıradan çıxır (Single Point of Failure). Zigbee və ya Thread protokollarında isə hər bir cihaz həm də bir routerdir. Üstünlük: Əgər bir marşrut kəsilərsə, məlumat avtomatik olaraq digər qonşu cihaz üzərindən mərkəzə çatır. Bu, sistemin dayanıqlığını (redundancy) artırır.",
     technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
-      "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
+      "TypeScript",
+      "YAML",
+      "HomeAssistant",
+      "SonOff",
+      "Tuya",
+      "RaspberryPi",
       "Docker",
+      "MiHome",
     ],
   },
 ];
