@@ -2,7 +2,7 @@
 title: "Ağıllı Ev Nədir? Yeni Başlayanlar üçün Bələdçi"
 description: "Ağıllı ev texnologiyaları haqqında əsas məlumatlar və üstünlüklər."
 pubDate: 2026-01-08
-image: "/hasac/images/smart-home-intro.jpg"
+heroImage: "/hasac/images/smart-home-intro.jpg"
 category: "Bələdçi"
 ---
 
