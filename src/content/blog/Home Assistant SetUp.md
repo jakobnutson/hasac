@@ -10,8 +10,7 @@ Home Assistant proqram təminatı nə qədər mükəmməl olsa da, o, üzərind�
 
 ### 1. Sistemin Beyni: Server Seçimi
 
-Home Assistant-ı işə salmaq üçün bir neçə yolunuz var. Seçim sizin ehtiyacınızdan və sistemin mürəkkəbliyindən asılıdır:
-
+Home Assistant qurmaq üçün bir neçə yolunuz var. Seçim sizin ehtiyacınızdan asılıdır:
 
     
 ![haminipc](../../assets/images/minipc.jpg)
