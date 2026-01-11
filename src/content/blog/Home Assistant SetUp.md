@@ -2,7 +2,7 @@
 title: "Home Assistant Əsas lazım olan: Stabil Sistem üçün Hansı Cihazlar Lazımdır?"
 description: "Sistemin 'beynindən tutmuş sensorlara qədər: Uzunömürlü ağıllı ev üçün avadanlıq seçimi."
 pubDate: 2026-01-11
-heroImage: '../../assets/images/camera-doorbell.jpg'
+heroImage: '../../assets/images/hamain.jpg'
 category: "Hardware"
 ---
 
@@ -33,5 +33,4 @@ Biz "Tam Kabelsiz" sistem qurduğumuz üçün cihazların mərkəzi serverlə ne
 Sisteminiz nə qədər professional qurulsa da, elektrik kəsilməsi zamanı Linux verilənlər bazası (database) zədələnə bilər. Kiçik bir **Mini UPS** həm serverin, həm də internet routerin kəsilməz işini təmin edərək sistemin "uptime" göstəricisini 100%-ə yaxınlaşdırır.
 
 ---
-
-> ** Avadanlıq seçərkən hər zaman 'Local Control' dəstəkləyən cihazlara üstünlük verin. Wi-Fi cihazlar şəbəkəni yükləyir, Zigbee isə öz 'Mesh' şəbəkəsini quraraq infrastrukturunuzu daha dayanıqlı edir."
+* Avadanlıq seçərkən hər zaman 'Local Control' dəstəkləyən cihazlara üstünlük verin. Wi-Fi cihazlar şəbəkəni yükləyir, Zigbee isə öz 'Mesh' şəbəkəsini quraraq infrastrukturunuzu daha dayanıqlı edir."
