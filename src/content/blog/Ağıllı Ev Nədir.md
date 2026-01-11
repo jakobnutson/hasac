@@ -15,4 +15,4 @@ Ağıllı ev (Smart Home), məişət cihazlarının internet vasitəsilə bir-bi
 
 Sistem qurmağa başlamaq üçün ilk olaraq yaxşı bir Wi-Fi marşrutlaşdırıcısı və mərkəzi hab (hub) seçmək kifayətdir.
 
-[Növbətı məqələni oxu]( /Home-Assistant-Set-Up)
+[Növbətı məqələni oxu]( ./Home-Assistant-Set-Up)
