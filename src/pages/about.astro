@@ -6,27 +6,35 @@ const pageDescription = '';
 ---
 
 <Layout title={pageTitle} description={pageDescription} pubDate={new Date()} showHeader={false}>
-  <p>
-      Biz, yaşayış sahələrini daha ağıllı, təhlükəsiz və səmərəli etmək məqsədi ilə yola çıxan texnologiya həvəskarlarıyıq.
-      Home Assistant ekosistemi üzrə ixtisaslaşaraq, müştərilərimizə qapalı (cloud) sistemlərdən asılı olmayan, tamamilə yerli və gizli saxlanılan ağıllı ev həlləri təklif edirik.
-      
-  </p>
-  <p>
-   Bizim fərqimiz — tamamilə kabelsiz (wireless) texnologiyalara üstünlük verməyimizdir. 
-      Divarları zədələmədən, mövcud təmirinizə toxunmadan ən mürəkkəb avtomatlaşdırma ssenarilərini həyata keçiririk. Zigbee, Thread və Matter protokolları vasitəsilə evinizin hər 
-      bir küncünü vahid mərkəzdən idarə olunan intellektual sistemə çeviririk.
-  </p>
-  <p>
-   Bizim Fəlsəfəmiz
-<p>
-    "Texnologiya mürəkkəb olmamalıdır."
- </p>
-<p>
-    🏠 Eviniz toxunulmazdır: Biz sizin evinizdə deşmə və ya qazma işləri aparmırıq. Kabelsiz sensorlar ilə təmiz iş təhvil veririk.
-</p>
-<p>
-    🔒 Sizin məlumat, sizin mülkünüzdür: Home Assistant-ın gücü ilə bütün avtomatlaşdırmalar yerli (local) işləyir. İnternet kəsilsə belə, eviniz "ağıllı" qalmağa davam edir.
-</p>
+<section class="max-w-4xl mx-auto py-16 px-6">
+  <div class="text-center mb-12">
+    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Eviniz üçün Mühəndis Həlləri</h2>
+    <p class="text-lg text-gray-600 leading-relaxed">
+      Yaşayış sahələrini daha ağıllı, təhlükəsiz və səmərəli etmək məqsədi ilə yola çıxan texnologiya mütəxəssisləriyik.
+    </p>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="p-8 bg-blue-50 rounded-3xl border border-blue-100 hover:shadow-lg transition">
+      <div class="text-3xl mb-4">🔒</div>
+      <h3 class="text-xl font-bold mb-2">Lokal və Gizli</h3>
+      <p class="text-gray-600">Home Assistant-ın gücü ilə məlumatlarınız yalnız sizin evinizdəki cihazda qalır. Cloud asılılığına son!</p>
+    </div>
+
+    <div class="p-8 bg-green-50 rounded-3xl border border-green-100 hover:shadow-lg transition">
+      <div class="text-3xl mb-4">🏠</div>
+      <h3 class="text-xl font-bold mb-2">Divarlar Toxunulmazdır</h3>
+      <p class="text-gray-600">Simsiz (Wireless) montaj sayəsində təmirinizə xələl gətirmədən ən mürəkkəb sensorları quraşdırırıq.</p>
+    </div>
+  </div>
+
+  <div class="mt-12 p-8 bg-gray-900 text-white rounded-3xl text-center">
+    <p class="text-xl italic font-light">"Texnologiya mürəkkəb olmamalıdır."</p>
+    <div class="mt-4 flex justify-center gap-4 text-sm font-mono text-blue-400">
+      <span>#Zigbee</span> <span>#Matter</span> <span>#Thread</span> <span>#LocalControl</span>
+    </div>
+  </div>
+</section>
   <p>
   <GlowLineSeparator />
   </p>
