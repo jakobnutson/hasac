@@ -7,6 +7,7 @@ category: 'Memarlıq'
 ---
 
 ---
+![wifivsha](../../assets/images/wifivsha.jpg)
 
 Əvvəllər “peşəkar ağıllı ev” dedikdə ağla yalnız divariçi kilometrlərlə kabel və bahalı mərkəzi panellər gəlirdi. Lakin paylanmış sistemlərin (**distributed systems**) inkişafı, bu yanaşmanı fundamental olaraq dəyişdi. 
 
@@ -14,13 +15,13 @@ Bu gün Home Assistant ilə qurulan kabelsiz sistemlər, klassik kabelli rəqibl
 
 ---
 
-### 1. “Decoupling” və Memarlıq Çevikliyi
+### 1. Memarlıq Çevikliyi
 
 Kabelli sistemlərdə (məsələn, KNX) bir sensorun yerini dəyişmək fiziki müdaxilə və yenidən montaj tələb edir. Bu, sistemin infrastruktura sərt bağlılığı (tight coupling) deməkdir.
 
 Simsiz sistemlərdə isə cihazlar proqram səviyyəsində **decoupled** (ayrılmış) vəziyyətdədir. 
 
-> **Mühəndis toxunuşu:** Bir obyektin (cihazın) yerini dəyişmək üçün infrastruktura toxunulmur; yalnız proqram təminatında konfiqurasiyanı (mapping) dəyişmək kifayətdir. Bu, sistemə inanılmaz bir modulyarlıq qazandırır.
+> *Mühəndis toxunuşu:* Bir obyektin (cihazın) yerini dəyişmək üçün infrastruktura toxunulmur; yalnız proqram təminatında konfiqurasiyanı (mapping) dəyişmək kifayətdir. Bu, sistemə inanılmaz bir modulyarlıq qazandırır.
 
 ---
 
