@@ -1,6 +1,6 @@
 ---
 title: 'Niyə Simsiz?'
-description: ''
+description: 'Home Assistant'
 pubDate: 'Dec 12 2026'
 heroImage: '../../assets/images/homeassist.jpg'
 category: 'Design'
