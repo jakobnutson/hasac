@@ -43,18 +43,7 @@ Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (**CA
 
 * **Sürətli Deployment:** Bir gündə bütün evi "ağıllı" hala gətirmək mümkündür. 
 * **Mərhələli Genişlənmə:** Sistem "paylanmış" olduğu üçün, bu gün bir otağı ağıllı edib, büdcəyə uyğun olaraq gələn ay digər hissələri əlavə edə bilərsiniz. 
-
 ---
-
-### Müqayisəli Analiz
-
-| Xüsusiyyət | Klassik Kabelli Sistem | Home Assistant (Simsiz) |
-| :--- | :--- | :--- |
-| ##**Memarlıq**##| Monolitik (Mərkəzi asılılıq)  | Paylanmış |
-| ##**Genişlənmə**##   | Çətin və Bahalı             | Çox Sadə  |
-| ##**Hata Toleransı**## | Aşağı (Kabel asılılığı) | Yüksək (Self-healing mesh) |
-| ##**İnvestisiya**## | Yüksək başlanğıc xərci | Çevik büdcə planlaması |
-
 ### Nəticə
 
 Biz mürəkkəb kabelləşməni proqram təminatı intellekti ilə əvəz edirik. Bu, həm büdcənizə qənaət edir, həm də gələcəkdə sistemi istədiyiniz kimi modifikasiya etmək azadlığı verir. Eviniz artıq statik bir bina deyil, sizinlə birlikdə böyüyən dinamik bir ekosistemdir.
