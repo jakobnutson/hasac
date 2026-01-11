@@ -50,10 +50,10 @@ Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (**CA
 
 | Xüsusiyyət | Klassik Kabelli Sistem | Home Assistant (Simsiz) |
 | :--- | :--- | :--- |
-| **Memarlıq** | Monolitik (Mərkəzi asılılıq) | Paylanmış (Distributed) |
-| **Genişlənmə** | Çətin və Bahalı | Çox Sadə (Scalable) |
-| **Hata Toleransı** | Aşağı (Kabel asılılığı) | Yüksək (Self-healing mesh) |
-| **İnvestisiya** | Yüksək başlanğıc xərci | Çevik büdcə planlaması |
+| ##**Memarlıq**##| Monolitik (Mərkəzi asılılıq)  | Paylanmış |
+| ##**Genişlənmə**##   | Çətin və Bahalı             | Çox Sadə  |
+| ##**Hata Toleransı**## | Aşağı (Kabel asılılığı) | Yüksək (Self-healing mesh) |
+| ##**İnvestisiya**## | Yüksək başlanğıc xərci | Çevik büdcə planlaması |
 
 ### Nəticə
 
