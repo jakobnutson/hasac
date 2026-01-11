@@ -14,7 +14,7 @@ Home Assistant qurmaq üçün bir neçə yolunuz var. Seçim sizin ehtiyacınız
 
     
 ![haminipc](../../assets/images/minipc.jpg)
-* **Mini PC (Intel NUC / Dell OptiPlex):** Bir mühəndis olaraq mənim tövsiyəm budur. SSD yaddaş və güclü prosessor sayəsində sistem anında reaksiya verir. Xüsusilə kamera inteqrasiyası (Frigate AI) planlaşdırırsınızsa, Mini PC ən stabil yoldur.
+* **Mini PC yada ən sadə Laptop (WindowsOS):** Bir mühəndis olaraq mənim tövsiyəm budur. SSD yaddaş və güclü prosessor sayəsində sistem anında reaksiya verir. Xüsusilə kamera inteqrasiyası (Frigate AI) planlaşdırırsınızsa, Mini PC ən stabil yoldur.
 ![hagreen](../../assets/images/ha-green.jpg)
 * **Home Assistant Green:** Rəsmi, həlldir. Konfiqurasiya ilə çox məşğul olmaq istəməyənlər üçün idealdır.
 ![rasberry](../../assets/images/rasberry-pi.jpg)
