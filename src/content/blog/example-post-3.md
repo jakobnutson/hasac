@@ -4,8 +4,8 @@ description: 'Home Assistant'
 pubDate: 'Dec 12 2026'
 heroImage: '../../assets/images/homeassist.jpg'
 category: 'Design'
-tags: ''
 ---
+
 
 Əvvəllər "peşəkar ağıllı ev" dedikdə ağla yalnız divariçi kilometrlərlə kabel və bahalı mərkəzi panellər gəlirdi. Lakin paylanmış sistemlərin (distributed systems) inkişafı, bu yanaşmanı fundamental olaraq dəyişdi. Bu gün Home Assistant ilə qurulan kabelsiz sistemlər, kabelli rəqiblərindən daha çevik, daha ucuz və ən əsası — daha ağıllıdır.
 
