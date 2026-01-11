@@ -18,7 +18,7 @@ function sanitizeToWhite(svg: string, size = 18) {
 
 const contactIcon = sanitizeToWhite(contactIconRaw);
 const feedUrl = new URL('rss.xml', Astro.site).toString();
-const feedlyUrl = `https://instagram.com/${feedUrl}`;
+const feedlyUrl = `https://instagram.com/`;
 const inoreaderUrl = `https://www.inoreader.com/?add_feed=${feedUrl}`;
 ---
 
