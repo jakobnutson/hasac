@@ -2,7 +2,7 @@
 title: "Ağıllı Termostatlar: Enerji Xərclərinə Necə Qənaət Etməli?"
 description: "Qış aylarında isitmə xərclərini azaltmağın ən effektiv yolu ağıllı termostatlardır."
 pubDate: 2026-01-08
-heroImage: "../../assets/images/thermostat-hero.jpg"
+heroImage: "../../assets/images/thermostat-hero1.jpg"
 category: "Enerji"
 ---
 
