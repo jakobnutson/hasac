@@ -1,9 +1,9 @@
 ---
-title: "Ağıllı Ev Nədir? Yeni Başlayanlar üçün Bələdçi"
+title: "Ağıllı Ev Nədir? Yeni Başlayanlar üçün"
 description: "Ağıllı ev texnologiyaları haqqında əsas məlumatlar və üstünlüklər."
 pubDate: 2026-01-08
 heroImage: "../../assets/images/smart-home-intro.jpg"
-category: "Bələdçi"
+category: "Oxu"
 ---
 
 Ağıllı ev (Smart Home), məişət cihazlarının internet vasitəsilə bir-birinə bağlandığı və uzaqdan idarə oluna bildiyi bir sistemdir. 
@@ -14,3 +14,5 @@ Ağıllı ev (Smart Home), məişət cihazlarının internet vasitəsilə bir-bi
 * **Qənaət:** Ağıllı termostatlar enerji xərclərini 30%-ə qədər azalda bilər.
 
 Sistem qurmağa başlamaq üçün ilk olaraq yaxşı bir Wi-Fi marşrutlaşdırıcısı və mərkəzi hab (hub) seçmək kifayətdir.
+
+[Növbətı məqələni oxu](./HomeAssistantSetUp.md)
