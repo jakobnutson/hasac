@@ -1,31 +1,59 @@
 ---
-title: 'Niyə Simsiz?'
-description: 'Home Assistant'
-pubDate: 'Dec 12 2026'
+title: "Simsiz İnqilab: Niyə Klassik Kabellər Keçmişdə Qaldı?"
+description: "Paylanmış sistemlər (distributed systems) məntiqi ilə ağıllı ev memarlığı: Çeviklik, təhlükəsizlik və iqtisadi səmərə."
+pubDate: 2026-01-12
 heroImage: '../../assets/images/homeassist.jpg'
-category: 'Design'
+category: 'Memarlıq'
 ---
 
+---
 
-Əvvəllər "peşəkar ağıllı ev" dedikdə ağla yalnız divariçi kilometrlərlə kabel və bahalı mərkəzi panellər gəlirdi. Lakin paylanmış sistemlərin (distributed systems) inkişafı, bu yanaşmanı fundamental olaraq dəyişdi. Bu gün Home Assistant ilə qurulan kabelsiz sistemlər, kabelli rəqiblərindən daha çevik, daha ucuz və ən əsası — daha ağıllıdır.
+Əvvəllər “peşəkar ağıllı ev” dedikdə ağla yalnız divariçi kilometrlərlə kabel və bahalı mərkəzi panellər gəlirdi. Lakin paylanmış sistemlərin (**distributed systems**) inkişafı, bu yanaşmanı fundamental olaraq dəyişdi. 
 
-Niyə Simsiz? (Mühəndislik Analizi)
-1. "Decoupling" və Memarlıq Çevikliyi
+Bu gün Home Assistant ilə qurulan kabelsiz sistemlər, klassik kabelli rəqiblərindən daha çevik, daha ucuz və ən əsası — daha ağıllıdır. Gəlin bu üstünlükləri mühəndislik prizmasından analiz edək.
 
-Kabelli sistemlərdə (məsələn, KNX) bir sensorun yerini dəyişmək fiziki müdaxilə və yenidən montaj tələb edir. Simsiz sistemlərdə isə cihazlar proqram səviyyəsində decoupled (ayrılmış) vəziyyətdədir.
+---
 
-  Mühəndis toxunuşu: Bir obyektin (cihazın) yerini dəyişmək üçün kodu (konfiqurasiyanı) dəyişmək kifayətdir, infrastruktura toxunulmur.
+### 1. “Decoupling” və Memarlıq Çevikliyi
 
-2. Self-Healing Mesh Network (Özünü Bərpa Edən Şəbəkə)
+Kabelli sistemlərdə (məsələn, KNX) bir sensorun yerini dəyişmək fiziki müdaxilə və yenidən montaj tələb edir. Bu, sistemin infrastruktura sərt bağlılığı (tight coupling) deməkdir.
 
-Wired sistemlərdə kabel qırılarsa, o xətt tamamilə sıradan çıxır (Single Point of Failure). Zigbee və ya Thread protokollarında isə hər bir cihaz həm də bir routerdir.
+Simsiz sistemlərdə isə cihazlar proqram səviyyəsində **decoupled** (ayrılmış) vəziyyətdədir. 
 
-  Üstünlük: Əgər bir marşrut kəsilərsə, məlumat avtomatik olaraq digər qonşu cihaz üzərindən mərkəzə çatır. Bu, sistemin dayanıqlığını (redundancy) artırır.
+> **Mühəndis toxunuşu:** Bir obyektin (cihazın) yerini dəyişmək üçün infrastruktura toxunulmur; yalnız proqram təminatında konfiqurasiyanı (mapping) dəyişmək kifayətdir. Bu, sistemə inanılmaz bir modulyarlıq qazandırır.
 
-3. Qiymət və Zaman Effektivliyi (CAPEX vs OPEX)
+---
 
-Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (CAPEX) kəskin artırır. Simsiz həllər isə:
+### 2. Self-Healing Mesh Network (Özünü Bərpa Edən Şəbəkə)
 
-   Sürətli Quraşdırmaq: Bir gündə bütün cihazları qurmaq mümkündür.
+Wired (kabelli) sistemlərdə mərkəzi şin (bus) və ya kabel qırılarsa, o xətt tamamilə sıradan çıxır. Bu, mühəndislikdə **Single Point of Failure (SPOF)** — yəni tək bir nöqtədən asılılıq adlanır.
 
-   Bu gün bir otağı ağıllı edib, büdcəyə uyğun olaraq gələn ay digər otaqları əlavə edə bilərsiniz.
+Zigbee və ya Thread protokollarında isə hər bir cihaz həm də bir router rolunu oynayır.
+
+
+
+**Üstünlük:** Əgər bir marşrut (path) kəsilərsə və ya maneə ilə qarşılaşarsa, məlumat avtomatik olaraq digər qonşu cihaz üzərindən mərkəzə çatır. Bu, sistemin dayanıqlığını (**redundancy**) və etibarlılığını (reliability) təmin edir.
+
+---
+
+### 3. Qiymət və Zaman Effektivliyi (CAPEX vs OPEX)
+
+Kabelli sistemin quraşdırılması aylar çəkir və tikinti xərclərini (**CAPEX**) kəskin artırır. Simsiz həllər isə mühəndislik effektivliyi baxımından bir neçə addım öndədir:
+
+* **Sürətli Deployment:** Bir gündə bütün evi "ağıllı" hala gətirmək mümkündür. 
+* **Mərhələli Genişlənmə:** Sistem "paylanmış" olduğu üçün, bu gün bir otağı ağıllı edib, büdcəyə uyğun olaraq gələn ay digər hissələri əlavə edə bilərsiniz. 
+
+---
+
+### Müqayisəli Analiz
+
+| Xüsusiyyət | Klassik Kabelli Sistem | Home Assistant (Simsiz) |
+| :--- | :--- | :--- |
+| **Memarlıq** | Monolitik (Mərkəzi asılılıq) | Paylanmış (Distributed) |
+| **Genişlənmə** | Çətin və Bahalı | Çox Sadə (Scalable) |
+| **Hata Toleransı** | Aşağı (Kabel asılılığı) | Yüksək (Self-healing mesh) |
+| **İnvestisiya** | Yüksək başlanğıc xərci | Çevik büdcə planlaması |
+
+### Nəticə
+
+Biz mürəkkəb kabelləşməni proqram təminatı intellekti ilə əvəz edirik. Bu, həm büdcənizə qənaət edir, həm də gələcəkdə sistemi istədiyiniz kimi modifikasiya etmək azadlığı verir. Eviniz artıq statik bir bina deyil, sizinlə birlikdə böyüyən dinamik bir ekosistemdir.
