@@ -13,7 +13,7 @@ category: "Enerji Qənaəti"
 
 ### Texniki Həll: Dry Contact nədir?
 Bir çox müasir kombilər xarici termostat üçün xüsusi girişə malikdir. Biz bu girişə Zigbee və ya Wi-Fi dəstəkli bir cihaz (məsələn: Sonoff və ya Aqara) qoşuruq.
-![Drysensor](../../assets/images/sensortemp.webp)
+![Drysensor](../../assets/images/sensortemp.jpg)
 Bu cihaz heç bir gərginlik vermədən yalnız kombini işə salır və ya söndürür.
 
 Termostat funksiyasini isə evdə olan hər hansi temperaturu olçən cihaz ola bilər.
