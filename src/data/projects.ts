@@ -10,7 +10,7 @@ export const projects = [
 		techStack: "Home Assistant • Zigbee • Alarmo • Matter",
 		description: "Qapı və pəncərələr üçün tam kabelsiz sensor şəbəkəsinin qurulması. 0.1s gecikmə ilə anlıq bildirişlər və lokal (cloud-free) siqnalizasiya idarəetməsi.",
 		ctaText: "Detallara bax →",
-		ctaLink: "/blog/security-system",
+		ctaLink: "/hasac/blog/security-system",
 		icon: Aqara
 	},
 	{
@@ -18,7 +18,7 @@ export const projects = [
 		techStack: "Zigbee • Dry Contact • Home Assistant • ESPHome",
 		description: "Qazan və kombilərin 'Dry Contact' (Quru Kontakt) vasitəsilə inteqrasiyası. Temperatur qrafiklərinə və varlıq sensorlarına əsaslanan 30% enerji qənaəti.",
 		ctaText: "Texniki Analiz →",
-		ctaLink: "/hasac/blog/termostat-kombi-dry-contact",
+		ctaLink: "/hasac/blog/thermostat-integration",
 		icon: PythonIcon
 	},
 	{
